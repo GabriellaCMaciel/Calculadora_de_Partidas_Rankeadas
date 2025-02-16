@@ -29,6 +29,8 @@ function rankPartidas(saldoPartidas) {
         case (saldoPartidas >= 101):
             return "Imortal";
             break
+        default:
+            return "Nível desconhecido";
     }
 }
 
